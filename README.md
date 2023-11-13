@@ -3,32 +3,28 @@
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
-
-Make sure to install the dependencies:
-
 ```bash
+# Install the dependencies
 bun install
+
+# Copy the example environment file
+cp .env .env.example
 ```
 
 ## Development Server
-
-Start the development server on `http://localhost:3000`:
-
 ```bash
+# Start the development server on `http://localhost:3000`
 bun run dev
 ```
 
 ## Production
-
-Build the application for production:
-
 ```bash
+# Build the application for production
 bun run build
 ```
 
-Locally preview production build:
-
 ```bash
+# Locally preview production build
 bun run preview
 ```
 
